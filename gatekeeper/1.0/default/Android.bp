@@ -31,7 +31,6 @@ cc_binary {
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
-    init_rc: ["android.hardware.gatekeeper@1.0-service.rc"],
 
     srcs: ["service.cpp"],
 

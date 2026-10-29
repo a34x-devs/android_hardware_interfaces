@@ -171,7 +171,6 @@ cc_binary {
         "android.hardware.wifi-V4-ndk",
     ],
     static_libs: ["android.hardware.wifi-service-lib"],
-    init_rc: ["android.hardware.wifi-service-lazy.rc"],
     vintf_fragment_modules: ["android.hardware.wifi-service.xml"],
 }
 

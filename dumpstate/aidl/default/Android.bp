@@ -24,7 +24,6 @@ package {
 cc_binary {
     name: "android.hardware.dumpstate-service.example",
     relative_install_path: "hw",
-    init_rc: ["dumpstate-default.rc"],
     vintf_fragments: ["dumpstate-default.xml"],
     vendor: true,
     shared_libs: [
