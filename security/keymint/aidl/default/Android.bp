@@ -34,6 +34,7 @@ vintf_fragment {
 // isolated execution environment."
 cc_binary {
     name: "android.hardware.security.keymint-service",
+    installable: false,
     relative_install_path: "hw",
     init_rc: ["android.hardware.security.keymint-service.rc"],
     vendor: true,

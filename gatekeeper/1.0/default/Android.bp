@@ -27,6 +27,7 @@ cc_library_shared {
 
 cc_binary {
     name: "android.hardware.gatekeeper@1.0-service",
+    installable: false,
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
