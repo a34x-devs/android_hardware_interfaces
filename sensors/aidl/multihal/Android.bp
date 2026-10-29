@@ -32,6 +32,7 @@ vintf_fragment {
 
 cc_binary {
     name: "android.hardware.sensors-service.multihal",
+    installable: false,
     vendor: true,
     relative_install_path: "hw",
     srcs: [
